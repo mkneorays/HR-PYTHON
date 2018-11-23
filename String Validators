@@ -21,7 +21,7 @@ if __name__ == '__main__':
     s = input()
     #s=str(123)
     s1="#$%@^&*/;, '"
-# Remove # char from string
+# Remove (#$%@^&*/;, ') char from string
 for char in s1:
      s = s.replace(char,"")
 
